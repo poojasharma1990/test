@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 389 270" width="389" height="270">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #0d70ff } 
+		.shp1 { fill: #0062fb } 
+		.shp2 { fill: #5fbcff } 
+		.shp3 { fill: #1c1a49 } 
+	</style>
+	<path id="Shape 1" class="shp0" d="M0 171.49L194.5 266.65L389 171.49L389 0L0 0L0 171.49Z" />
+	<path id="Shape 2" class="shp1" d="M0 99.34L194.5 281.29L389 101.43L389 0L0 0L0 99.34Z" />
+	<path id="Shape 3" class="shp2" d="M0 61.7L194.5 294.89L389 61.7L389 0L0 0L0 61.7Z" />
+	<path id="Shape 4" class="shp3" d="M0 0L194.5 307.44L389 0L0 0Z" />
+</svg>

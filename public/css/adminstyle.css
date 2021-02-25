@@ -1,0 +1,598 @@
+*{margin:0;padding:0;}*
+
+[class*=sidebar-light-] {
+    background: #222d31;
+}
+.nav-sidebar .nav-link p, [class*=sidebar-light-] .sidebar a {
+    color: #628493;
+}
+nav .nav-sidebar .nav-link.active p {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: transparent;
+    color: #FFFFFF;
+    box-shadow: none;
+    font-weight: 600;
+}
+.admin img.brand-image {
+    margin: auto;
+    float: none;
+}
+a.brand-link.d-inline-block {
+    text-align: center;
+    margin: auto;
+}
+.admin .nav-blue {
+    background-color: #3c8dbc;
+}
+.admin .main-header.blue-text a {
+    color: #fff;
+}
+.admin .nav-sidebar a.nav-link {
+    border-bottom: 1px solid #3D4E56;
+    border-radius: 0;
+	padding: 10px 15px 10px 35px;
+	margin-bottom: 0;
+}
+.admin .nav-sidebar li.nav-item:last-child a.nav-link {
+    border-bottom: 1px solid transparent;	
+}
+.main-sidebar .os-content {
+    padding: 0 !important;
+}
+a.brand-link.d-inline-block h2 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+.nav-treeview .nav-link.active .nav-icon,.nav-icon {
+    color: #628493;
+}
+.btn.basic-btn {
+       width: auto;
+    background: #3C8DBC;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 8px 20px;
+}
+.basic-btn.add {
+    width: 80px;
+}
+.admin .card {
+    padding: 22px;
+}
+.saearch-wrap input.form-control[type="search"] {
+    max-width: 250px;
+}
+.add-agency .form-group {
+    padding-right: 20px;
+}
+.admin .content-wrapper {
+    background-color: #fbfbfb;
+	padding-top: 10px;
+}
+.nav-sidebar .nav-link p {
+    padding-left: 8px;
+}
+/* Toggle On Off button css start */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 75px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #CACACA;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+      position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 7px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #3C8DBC;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #3C8DBC;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(42px);
+    -ms-transform: translateX(42px);
+    transform: translateX(42px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.switch input:checked + .slider::after {
+    content: 'Active';
+    top: 5px;
+    position: relative;
+    font-size: 11px;
+    color: #fff;
+    left: 8px;
+}
+.switch .slider.round::after {
+    content: 'Inactive';
+    position: absolute;
+    right: 5px;
+    font-size: 11px;
+    top: 8px;
+    color: #fff;
+}
+
+/* Toggle On Off button css end */
+
+button.btn.btnaction {
+    background: #3C8DBC;
+    padding: 3px 7px;
+    color: #fff;
+}
+button.btn.delebt.btnaction {
+    background: #FC3F3F;
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+}
+.admin .matchdetail .table .thead-light th {
+    color: #808080;
+    background-color: #F0F0F0;
+    border-color: #F0F0F0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.undertablewrap.agent-table .col-sm-12 {
+    padding: 0;
+}
+.table td, .table th {
+    vertical-align: middle;
+}
+.agent-table table td {
+    font-size: 16px;
+    color: #000;
+}
+img.arrowbt {
+    position: absolute;
+    right: 10px;
+    top: 17px;
+}
+.card {
+    box-shadow: none;
+    border: 1px solid #ECECEC;
+}
+.agent-table.undertablewrap table.table {
+    border: 1px solid transparent;
+}
+.basic-btn:hover,.basicbtn:hover{
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.singlewrap button.btn.float-right.basic-btn {
+    width: 100px;
+}
+.card.age-range input {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+.to {
+    margin: 0 5px;
+}
+.card.age-range {
+    display: inline-block;
+	width:100%;
+}
+.select-states1 {
+    position: relative;
+    width: 100%;
+}
+.shadow {
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 27%) !important;
+}
+.switch {
+    width: 70px!important;
+}
+.content label {
+    font-size: 14px;
+	width:100%;
+    color: #505050;
+}
+.margin-b-15 {
+    margin-bottom: 15px;
+}
+#createagent {
+	display: none;
+}
+.btn.fullwidth.singlewrap {
+    width: 100%;
+}
+.form-control {
+    border: 1px solid #CCCCCC;
+	height: 40px
+}
+.sidebar-collapse .main-sidebar:hover a.nav-link {
+    text-align: left;
+}
+img.whiteicon {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+img.greyicon {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+a.nav-link.active img.greyicon {
+    display: none;
+}
+.nav-link.active img.whiteicon {
+    display: block;
+}
+img.whiteicon {
+    display: none;
+}
+.insurnanceco .slider {
+    background-color: #EBEBEB;
+}
+.insurnanceco .switch .slider.round::after {
+    color: #000;
+}
+.insurnanceco .switch input:checked + .slider::after {
+    color: #fff;
+}
+.matchdetail tbody td a {
+    color: #3C8DBC;
+}
+/* Neha css */
+.add-agency label {
+    color: #505050;
+    font-size: 14px;
+}
+.form-group select {
+    border: 1px solid #CCCCCC;
+    height: 40px;
+    width: 100%;
+    border-radius: .25rem;
+}
+.upload-blue input {
+    max-width: 100%;
+    padding: 0px 37px;
+    border: 0;
+    margin: 4px 0px;
+    text-align: center;
+    border-radius: 14px;
+    font-size: 17px;
+}
+span.ic-search.for-simple {
+    top: 38px;
+}
+/* button#agentform {
+    margin-top: 28px;
+} */
+.btn.basicbtn {
+    background: #3C8DBC;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 6px 20px;
+    margin-left: 10px;
+}
+.upload-blue input[type="file"]:focus {
+    outline: none;
+}
+.upload-blue span {
+    position: absolute;
+    left: 10px;
+    padding: 8px 24px;
+    pointer-events: none;
+    width: 136px;
+    height: 40px;
+    background: #3C8DBC;
+    border-radius: 17px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.agent-table table td:last-child {
+   /*  text-align: right; */
+    padding-right: 20px;
+}
+.admin .matchdetail .table .thead-light th:last-child {
+  /*   text-align: right; */
+    padding-right: 36px;
+}
+.add-agency .form-group input[type="textarea"] {
+    border: 1px solid #CCCCCC;
+    height: 95px;
+    width: 100%;
+    border-radius: .25rem;
+}
+.add-agency img#blah {
+    float: right;
+    border-radius: 5px;
+}
+.form-control, .form-group select {
+    border-radius: .25rem;
+}
+/* Neha css End */
+.select,.serch-td{
+	position:relative;
+}
+.select i {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    color: #C4C4C4;
+}
+.select .form-control {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.select-check1 {
+    border: 1px solid #ECECEC;
+    padding: 10px 15px;
+    border-radius: 4px;
+	height: 250px;
+    overflow: auto;
+}
+.select-check1 .checkbox {
+    margin-top: 5px;
+}
+.select-check1 .checkbox input {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.state-btn {
+    background: #3C8DBC;
+    border-radius: 4px;
+    color: #fff;
+    text-align: left;
+    width: 90px;
+    font-size: 14px;
+    vertical-align: middle;
+    position: relative;
+margin-bottom: 10px;
+}
+.state-btn-outer {
+    margin-top: 15px;
+}
+.state-btn span {
+    font-size: 11px;
+    vertical-align: middle;
+    float: right;
+    position: absolute;
+    right: 7px;
+    top: 9px;
+}
+.card.age-range.state-tbl td {
+    border: none;
+}
+.card.age-range.state-tbl {
+    height: 300px;
+    overflow: auto;
+}
+.height-range label, .height-range-inner {
+    display: inline;
+}
+.height-range-inner span:first-child {
+    margin-left: 15px;
+}
+.feet-out {
+    position: relative;
+    display: inline;
+}
+.feet {
+    position: absolute;
+    right: 18px;
+    top: 0px;
+    color: #808080;
+    font-size: 14px;
+}
+.feet-out input {
+    text-align: left!important;
+    padding: 5px 35px 5px 5px;
+	    margin-right: 10px;
+}
+.check-select.select-check1 {
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    width: 240px;
+    height: auto;
+}
+.tab-to{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+td .select {
+    display: inline-block;
+    margin-right: 10px;
+}
+.editsave {
+    background: #3C8DBC;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+.delesave {
+    background: #FC3F3F;
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 30px;
+}
+.agent-table td p {
+    display: initial;
+    color: #000;
+    margin-left: 20px;
+}
+.serch-td .check-select.select-check1 {
+    width: 200px;
+}
+.serch-td span.ic-search {
+    position: absolute;
+    top:9px;
+    left:10px;
+    color: #808080;
+    z-index: 1;
+}
+.serch-td .form-control {
+    width: 200px;
+}
+.age input {
+    width: 70px;
+    display: inline;
+}
+.input-file-container {
+      position: relative;
+    width: auto;
+    display: inline-block;
+} 
+.input-file-trigger {
+ display: block;
+    padding: 10px 15px;
+    background: #3C8DBC;
+    color: #fff!important;
+    transition: all .4s;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+.input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: auto;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.input-file-container span {
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.upload form, .upload p,.upload{
+    display: inline-block;
+}
+.Pen {
+    display: inline-block;
+    float: right;
+	margin-bottom: 20px;
+}
+.dropdown-menu {
+    padding: 0;
+    border: 0px;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+.insurnanceco .agent-table table td, .admin .insurnanceco  .matchdetail .table .thead-light th {
+    font-size: 14px;
+}	
+}
+@media only screen and (max-width: 1220px) {
+.insurnanceco .agent-table table td, .admin .insurnanceco  .matchdetail .table .thead-light th {
+    font-size: 13px;
+}	
+.card.age-range input {
+    width: 75px;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+.agent-table table td {
+    font-size: 14px;
+}
+.undertablewrap.agent-table .table-responsive .card {
+    overflow: auto;
+}
+.undertablewrap .card table.table {
+    max-width: 1250px;
+    width: 1250px;
+}
+.undertablewrap .card table.table.td-height {
+    max-width: 900px;
+    width: 900px;
+}
+.insurnanceco .agent-table table td, .admin .insurnanceco  .matchdetail .table .thead-light th {
+    font-size: 16px;
+}	
+}
+
+@media only screen and (max-width: 767px) {
+.height-range label,.height-range-inner{
+	width: 100%;
+    display: inline-block;
+}
+.height-range-inner{
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width: 575px) {
+.saearch-wrap input.form-control[type="search"] {
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.btn.basic-btn {
+    width: 100%;
+}
+.btn.basicbtn {
+    font-size: 14px;
+    padding: 5px 11px;
+    margin-left: 0;
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.admin .card {
+    padding: 15px;
+}
+.height-range-inner {
+    margin-bottom: 10px;
+}
+}

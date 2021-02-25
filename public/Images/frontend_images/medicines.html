@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agency Toolkit Pro Admin | Medicines</title>
+  <link rel="icon" href="dist/img/favicon.png" type="image/gif" sizes="16x16">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+  <!-- summernote -->
+  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+  <!-- My Css -->
+  <link rel="stylesheet" href="dist/css/my-css.css">
+  <!-- Admin Css -->
+  <link rel="stylesheet" href="dist/css/adminstyle.css">
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper admin">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand nav-blue blue-text">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-light-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index.html" class="brand-link d-inline-block">
+      <img src="dist/img/adminlogo.png" alt="AdminLTE Logo" class="brand-image" style="opacity: 1">
+	  <img src="dist/img/smalllogo.png" alt="AdminLTE Logo" class="brand-image samll" style="opacity: 1">
+	  <h2>Admin</h2>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+             <!--  <i class="nav-icon far fa-address-card"></i> -->
+			 <img src="dist/img/Guarantee.png" alt="icons" class="greyicon">
+			 <img src="dist/img/Guarantee-w.png" alt="icons" class="whiteicon">
+              <p>Insurance Companies</p>
+            </a>
+          </li>
+		  <li class="nav-item">
+            <a href="#" class="nav-link">
+            <!--   <i class="nav-icon far fa-building"></i> -->
+			 <img src="dist/img/Product.png" alt="icons" class="greyicon">
+              <p>
+                Insurance Products
+               <!--  <i class="fas fa-angle-right right"></i> -->
+			   <img src="dist/img/Arrowmain.png" class="arrowbt">
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Blog</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/UI/icons.html" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Carrier</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/UI/buttons.html" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Videos</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/UI/sliders.html" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>Scripts</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/UI/modals.html" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>FFL Playbook</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/UI/navbar.html" class="nav-link">
+                  <i class="fas fa-angle-right nav-icon"></i>
+                  <p>About Us</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="agent.html" class="nav-link">
+             <!--  <i class="nav-icon far fa-user"></i> -->
+
+			<img src="dist/img/Contact-w.png" alt="icons" class="greyicon">
+			<img src="dist/img/Contact.png" alt="icons" class=" whiteicon">
+              <p>Agent </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+			<!-- <i class="nav-icon far fa-comment-alt"></i> -->
+			<img src="dist/img/diseaseicon.png" alt="icons" class="greyicon">
+              <p>Disease</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="medicines.html" class="nav-link active">
+<!--               <i class="nav-icon far fa-calendar"></i> -->
+			<img src="dist/img/Pill.png" alt="icons" class="greyicon">
+			<img src="dist/img/Pill-w.png" alt="icons" class="whiteicon">
+              <p>Medicines</p>
+            </a>
+          </li>
+           <li class="nav-item">
+            <a href="agency.html" class="nav-link">
+             <!--  <i class="nav-icon far fa-calendar"></i> -->
+			 <img src="dist/img/Building.png" alt="icons" class="greyicon">
+			 <img src="dist/img/Building-w.png" alt="icons" class="whiteicon">
+              <p>Agency</p>
+            </a>
+          </li>         
+          
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper insurnanceco">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row ">
+          <div class="col-sm-12">
+            <h4 class="m-0">Medicines</h4>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="card saearch-wrap">
+          <div class="row mx-0">
+          <div class="col-sm-12 pl-0">
+            <span class="ic-search"><i class="fas fa-search"></i></span>
+            <input class="form-control col-sm-6" type="search" placeholder="Search" style="padding-left: 32px;" aria-label="Search">
+			<button  class="btn float-right basic-btn" id="agentform" href="Underwriting-steps.html">+ Add Company</button>
+          </div>
+		<!-- <div class="col-sm-6 float-right px-0">
+            
+          </div> -->
+          </div>
+        </div>
+		
+		<div class="card  bg-white" id="createagent">
+			<h4 class="margin-b-15">Add Agency Files</h4>	
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+                    <label for="exampleInputEmail1">Title</label>
+                    <input type="text" class="form-control " id="" placeholder="">
+                  </div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+                    <label for="exampleInputEmail1">Category</label>
+                    <input type="text" class="form-control " id="" placeholder="">
+                  </div>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+					<div class="form-group">
+						  <input type='file' onchange="readURL(this);" />
+							<img id="blah" src="#" alt="your image" />
+					</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+
+                  </div>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-sm-6">
+				<div class="form-group">
+
+                  </div>
+				</div>
+				<div class="col-sm-6">
+				<div class="form-group">
+                    <label for="exampleInputEmail1">Add Video URL</label>
+                    <input type="text" class="form-control" placeholder="">
+                  </div>
+				</div>
+				</div>			
+				
+			<div class="btn fullwidth singlewrap">
+				 <button  class="btn float-right basic-btn shadow">Add</button>
+			</div>	
+		</div>	
+	  </div>
+
+        <div class="row mx-0 undertablewrap agent-table">
+			<div class="col-sm-12">
+
+				<div class="matchdetail table-responsive">
+					<div class="table-responsive">
+						<div class="card">
+							<table class="table mb-0 bg-white">
+								<thead class="thead-light">
+									<tr>
+									<th>Title</th>
+									<th>Category</th>
+									<th>Description</th>
+									<th>Url</th>
+									<th>File</th>
+									<th>Action</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/PDF.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>	
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/DOC.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/PDF.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/DOC.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/DOC.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/PDF.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>	
+									<tr>
+										<td>Aegon Life Insurance Company Create<br> Account Steps</td>
+										<td>Account Managing</td>
+										<td>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Bibendum nisl fames <br> lectus consequat, amet.</td>
+										<td><a href="#">Copy URL</a></td>
+										<td><img src="dist/img/PDF.png" alt="file"></td>
+										<td><button class="btn editbt btnaction"><i class="fas fa-pen"></i></button>
+										<button class="btn delebt btnaction"><i class="fas fa-trash-alt"></i></button></td>
+									</tr>											
+								</tbody>
+							</table>								
+						</div>
+					</div>
+				</div>			
+			
+			
+			</div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <!-- <footer class="main-footer">
+    <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.1.0-rc
+    </div>
+  </footer> -->
+
+
+  <div class="modal fade" id="create-task">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h4 class="modal-title">Add New Task</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row m-0">
+          <div class="form-group col-sm-12">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Title">
+          </div>
+          <div class="form-group col-sm-6 date" id="reservationdate" data-target-input="nearest">
+            <input type="date" class="form-control datetimepicker-input" data-target="#reservationdate" style="color:#808080" />
+          </div>
+          <div class="form-group col-sm-6 date" id="reservationdate" data-target-input="nearest">
+            <input type="time" class="form-control datetimepicker-input" data-target="#reservationdate" style="color:#808080" />
+          </div>
+          <div class="form-group col-sm-12">
+            <textarea class="form-control" rows="3" placeholder="Add Description"></textarea>
+          </div>
+          <div class="form-group col-sm-12">
+            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Add Address">
+            <a href="" class="float-right" data-toggle="modal" data-target="#locate-map">Locate on map</a>
+          </div>
+      </div>
+        </div>
+        <div class="modal-footer border-0">
+          <button type="button" class="btn btn-blue float-right">Save</button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+
+<link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+
+<!-- cusotm JS file-->
+<script src="dist/js/pages/custom.js"></script>
+</body>
+</html>
